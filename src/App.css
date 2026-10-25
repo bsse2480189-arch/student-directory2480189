@@ -1,1 +1,32 @@
+/* Hero section on Home page */
+.hero {
+  background: linear-gradient(135deg, #212529, #495057);
+  color: white;
+  border-radius: 12px;
+}
 
+/* Student card hover effect */
+.student-card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Box that appears when Show Details is clicked */
+.details-box {
+  background-color: #f1f3f5;
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+/* Active link in navbar */
+.navbar .nav-link.active {
+  color: white;
+  font-weight: 600;
+  border-bottom: 2px solid #0d6efd;
+}
